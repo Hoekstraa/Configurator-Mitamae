@@ -1,5 +1,8 @@
 # Configurator-Metamae
 
+A nearly full-automated install of everything I need, configurated how I like it.
+At least, that's the goal. Currently it installs the basics, like a minimal version of KDE and Chromium.
+
 ## How to use
 
 After a clean OS install, 
@@ -30,3 +33,4 @@ For security reasons, after install a manual `passwd $USER` is needed.
 - Plasma-desktop is pretty minimal. Volume/Screen brightness control (with buttons and/or GUI elements) would be nice.
 - Maybe get Apulse so Firefox/Discord and other Pulseaudio exclusive software work.
 - Actually create that xorg configuration file in files/ into /etc/X11/xorg.xonf.d/30...
+- Install and configure TLP for laptop power management
