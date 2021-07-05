@@ -34,3 +34,4 @@ For security reasons, after install a manual `passwd $USER` is needed.
 - Maybe get Apulse so Firefox/Discord and other Pulseaudio exclusive software work.
 - Actually create that xorg configuration file in files/ into /etc/X11/xorg.xonf.d/30...
 - Install and configure TLP for laptop power management
+- Modify sudoers file to allow wheel users to use sudo
