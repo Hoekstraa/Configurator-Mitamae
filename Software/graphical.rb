@@ -1,8 +1,21 @@
+# GPU acceleration
+package "libva" do
+	action :install
+end
+
+package "intel-media-driver" do
+	action :install
+end
+
 package "firefox" do
 	action :install
 end
 
-package "chromium" do
+#package "chromium" do
+#	action :install
+#end
+
+package "mpv" do
 	action :install
 end
 

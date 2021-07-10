@@ -1,6 +1,8 @@
 include_recipe "OS/Alpine.rb"
 include_recipe "OS/Alpine-Xorg.rb"
 include_recipe "OS/jan.rb"
+include_recipe "OS/sudo.rb"
 include_recipe "DE/KDE.rb"
 include_recipe "Software/graphical.rb"
 include_recipe "Software/development.rb"
+include_recipe "Software/os-tools.rb"
